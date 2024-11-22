@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Product, Order
+from .models import *
 
 
 # Register your models here.  
@@ -9,4 +9,5 @@ class ProductAdmin(admin.ModelAdmin):
 
 @admin.register(Order)
 class OrderAdmin (admin.ModelAdmin):
-    pass
+    pass 
+

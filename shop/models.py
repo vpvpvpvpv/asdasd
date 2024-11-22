@@ -17,3 +17,4 @@ class Order(models.Model):
     email = models.TextField()
     comment = models.TextField()
     count = models.PositiveIntegerField()
+
